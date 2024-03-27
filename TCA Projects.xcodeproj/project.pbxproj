@@ -7,26 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8037B592BB1C4D900546851 /* TCA_ProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8037B582BB1C4D900546851 /* TCA_ProjectsApp.swift */; };
-		F8037B5B2BB1C4D900546851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8037B5A2BB1C4D900546851 /* ContentView.swift */; };
-		F8037B5D2BB1C4DA00546851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8037B5C2BB1C4DA00546851 /* Assets.xcassets */; };
-		F8037B612BB1C4DA00546851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8037B602BB1C4DA00546851 /* Preview Assets.xcassets */; };
+		F8037B6E2BB1C53500546851 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8037B6D2BB1C53500546851 /* App.swift */; };
+		F8037B722BB1C53600546851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8037B712BB1C53600546851 /* Assets.xcassets */; };
+		F8037B762BB1C53600546851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8037B752BB1C53600546851 /* Preview Assets.xcassets */; };
+		F83EED9E2BB1C63300255DAB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EED9D2BB1C63300255DAB /* App.swift */; };
+		F83EEDA02BB1C63300255DAB /* DaysFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EED9F2BB1C63300255DAB /* DaysFeature.swift */; };
+		F83EEDA22BB1C63400255DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83EEDA12BB1C63400255DAB /* Assets.xcassets */; };
+		F83EEDA62BB1C63400255DAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83EEDA52BB1C63400255DAB /* Preview Assets.xcassets */; };
+		F83EEDAC2BB1C86100255DAB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F83EEDAB2BB1C86100255DAB /* ComposableArchitecture */; };
+		F83EEDAE2BB1C97000255DAB /* DayFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EEDAD2BB1C97000255DAB /* DayFeature.swift */; };
+		F83EEDB32BB1C9D900255DAB /* DaysFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EEDB12BB1C9D900255DAB /* DaysFeature.swift */; };
+		F83EEDB42BB1C9D900255DAB /* DayFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EEDB02BB1C9D900255DAB /* DayFeature.swift */; };
+		F83EEDB72BB1CA0200255DAB /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = F83EEDB62BB1CA0200255DAB /* Tagged */; };
+		F83EEDB92BB1CA0200255DAB /* TaggedMoney in Frameworks */ = {isa = PBXBuildFile; productRef = F83EEDB82BB1CA0200255DAB /* TaggedMoney */; };
+		F83EEDBB2BB1CA0200255DAB /* TaggedTime in Frameworks */ = {isa = PBXBuildFile; productRef = F83EEDBA2BB1CA0200255DAB /* TaggedTime */; };
+		F83EEDBD2BB1CAE400255DAB /* NoteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EEDBC2BB1CAE400255DAB /* NoteFeature.swift */; };
+		F84F7B712BB4217B00B03C44 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F84F7B702BB4217B00B03C44 /* ComposableArchitecture */; };
+		F84F7B732BB4221E00B03C44 /* NoteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84F7B722BB4221E00B03C44 /* NoteFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8037B552BB1C4D900546851 /* TCA Projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA Projects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8037B582BB1C4D900546851 /* TCA_ProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_ProjectsApp.swift; sourceTree = "<group>"; };
-		F8037B5A2BB1C4D900546851 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F8037B5C2BB1C4DA00546851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8037B5E2BB1C4DA00546851 /* TCA_Projects.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCA_Projects.entitlements; sourceTree = "<group>"; };
-		F8037B602BB1C4DA00546851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8037B6B2BB1C53500546851 /* TCA Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8037B6D2BB1C53500546851 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		F8037B712BB1C53600546851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8037B732BB1C53600546851 /* TCA_Navigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCA_Navigation.entitlements; sourceTree = "<group>"; };
+		F8037B752BB1C53600546851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F83EED9B2BB1C63300255DAB /* TCA Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83EED9D2BB1C63300255DAB /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		F83EED9F2BB1C63300255DAB /* DaysFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysFeature.swift; sourceTree = "<group>"; };
+		F83EEDA12BB1C63400255DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F83EEDA32BB1C63400255DAB /* TCA_Basic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCA_Basic.entitlements; sourceTree = "<group>"; };
+		F83EEDA52BB1C63400255DAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F83EEDAD2BB1C97000255DAB /* DayFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFeature.swift; sourceTree = "<group>"; };
+		F83EEDB02BB1C9D900255DAB /* DayFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFeature.swift; sourceTree = "<group>"; };
+		F83EEDB12BB1C9D900255DAB /* DaysFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysFeature.swift; sourceTree = "<group>"; };
+		F83EEDBC2BB1CAE400255DAB /* NoteFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFeature.swift; sourceTree = "<group>"; };
+		F84F7B722BB4221E00B03C44 /* NoteFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F8037B522BB1C4D900546851 /* Frameworks */ = {
+		F8037B682BB1C53500546851 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84F7B712BB4217B00B03C44 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83EED982BB1C63300255DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83EEDB72BB1CA0200255DAB /* Tagged in Frameworks */,
+				F83EEDBB2BB1CA0200255DAB /* TaggedTime in Frameworks */,
+				F83EEDAC2BB1C86100255DAB /* ComposableArchitecture in Frameworks */,
+				F83EEDB92BB1CA0200255DAB /* TaggedMoney in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +71,8 @@
 		F8037B4C2BB1C4D900546851 = {
 			isa = PBXGroup;
 			children = (
-				F8037B572BB1C4D900546851 /* TCA Projects */,
+				F83EED9C2BB1C63300255DAB /* TCA Basic */,
+				F8037B6C2BB1C53500546851 /* TCA Navigation */,
 				F8037B562BB1C4D900546851 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,27 +80,52 @@
 		F8037B562BB1C4D900546851 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8037B552BB1C4D900546851 /* TCA Projects.app */,
+				F8037B6B2BB1C53500546851 /* TCA Navigation.app */,
+				F83EED9B2BB1C63300255DAB /* TCA Basic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8037B572BB1C4D900546851 /* TCA Projects */ = {
+		F8037B6C2BB1C53500546851 /* TCA Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				F8037B582BB1C4D900546851 /* TCA_ProjectsApp.swift */,
-				F8037B5A2BB1C4D900546851 /* ContentView.swift */,
-				F8037B5C2BB1C4DA00546851 /* Assets.xcassets */,
-				F8037B5E2BB1C4DA00546851 /* TCA_Projects.entitlements */,
-				F8037B5F2BB1C4DA00546851 /* Preview Content */,
+				F8037B6D2BB1C53500546851 /* App.swift */,
+				F83EEDB12BB1C9D900255DAB /* DaysFeature.swift */,
+				F83EEDB02BB1C9D900255DAB /* DayFeature.swift */,
+				F84F7B722BB4221E00B03C44 /* NoteFeature.swift */,
+				F8037B712BB1C53600546851 /* Assets.xcassets */,
+				F8037B732BB1C53600546851 /* TCA_Navigation.entitlements */,
+				F8037B742BB1C53600546851 /* Preview Content */,
 			);
-			path = "TCA Projects";
+			path = "TCA Navigation";
 			sourceTree = "<group>";
 		};
-		F8037B5F2BB1C4DA00546851 /* Preview Content */ = {
+		F8037B742BB1C53600546851 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F8037B602BB1C4DA00546851 /* Preview Assets.xcassets */,
+				F8037B752BB1C53600546851 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F83EED9C2BB1C63300255DAB /* TCA Basic */ = {
+			isa = PBXGroup;
+			children = (
+				F83EED9D2BB1C63300255DAB /* App.swift */,
+				F83EED9F2BB1C63300255DAB /* DaysFeature.swift */,
+				F83EEDAD2BB1C97000255DAB /* DayFeature.swift */,
+				F83EEDBC2BB1CAE400255DAB /* NoteFeature.swift */,
+				F83EEDA12BB1C63400255DAB /* Assets.xcassets */,
+				F83EEDA32BB1C63400255DAB /* TCA_Basic.entitlements */,
+				F83EEDA42BB1C63400255DAB /* Preview Content */,
+			);
+			path = "TCA Basic";
+			sourceTree = "<group>";
+		};
+		F83EEDA42BB1C63400255DAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F83EEDA52BB1C63400255DAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,21 +133,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8037B542BB1C4D900546851 /* TCA Projects */ = {
+		F8037B6A2BB1C53500546851 /* TCA Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8037B642BB1C4DA00546851 /* Build configuration list for PBXNativeTarget "TCA Projects" */;
+			buildConfigurationList = F8037B772BB1C53600546851 /* Build configuration list for PBXNativeTarget "TCA Navigation" */;
 			buildPhases = (
-				F8037B512BB1C4D900546851 /* Sources */,
-				F8037B522BB1C4D900546851 /* Frameworks */,
-				F8037B532BB1C4D900546851 /* Resources */,
+				F8037B672BB1C53500546851 /* Sources */,
+				F8037B682BB1C53500546851 /* Frameworks */,
+				F8037B692BB1C53500546851 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "TCA Projects";
-			productName = "TCA Projects";
-			productReference = F8037B552BB1C4D900546851 /* TCA Projects.app */;
+			name = "TCA Navigation";
+			packageProductDependencies = (
+				F84F7B702BB4217B00B03C44 /* ComposableArchitecture */,
+			);
+			productName = "TCA Navigation";
+			productReference = F8037B6B2BB1C53500546851 /* TCA Navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F83EED9A2BB1C63300255DAB /* TCA Basic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83EEDA72BB1C63400255DAB /* Build configuration list for PBXNativeTarget "TCA Basic" */;
+			buildPhases = (
+				F83EED972BB1C63300255DAB /* Sources */,
+				F83EED982BB1C63300255DAB /* Frameworks */,
+				F83EED992BB1C63300255DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCA Basic";
+			packageProductDependencies = (
+				F83EEDAB2BB1C86100255DAB /* ComposableArchitecture */,
+				F83EEDB62BB1CA0200255DAB /* Tagged */,
+				F83EEDB82BB1CA0200255DAB /* TaggedMoney */,
+				F83EEDBA2BB1CA0200255DAB /* TaggedTime */,
+			);
+			productName = "TCA Basic";
+			productReference = F83EED9B2BB1C63300255DAB /* TCA Basic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +186,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					F8037B542BB1C4D900546851 = {
+					F8037B6A2BB1C53500546851 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F83EED9A2BB1C63300255DAB = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -113,34 +203,61 @@
 				Base,
 			);
 			mainGroup = F8037B4C2BB1C4D900546851;
+			packageReferences = (
+				F83EEDAA2BB1C69200255DAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				F83EEDB52BB1CA0200255DAB /* XCRemoteSwiftPackageReference "swift-tagged" */,
+			);
 			productRefGroup = F8037B562BB1C4D900546851 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8037B542BB1C4D900546851 /* TCA Projects */,
+				F8037B6A2BB1C53500546851 /* TCA Navigation */,
+				F83EED9A2BB1C63300255DAB /* TCA Basic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F8037B532BB1C4D900546851 /* Resources */ = {
+		F8037B692BB1C53500546851 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8037B612BB1C4DA00546851 /* Preview Assets.xcassets in Resources */,
-				F8037B5D2BB1C4DA00546851 /* Assets.xcassets in Resources */,
+				F8037B762BB1C53600546851 /* Preview Assets.xcassets in Resources */,
+				F8037B722BB1C53600546851 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83EED992BB1C63300255DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83EEDA62BB1C63400255DAB /* Preview Assets.xcassets in Resources */,
+				F83EEDA22BB1C63400255DAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F8037B512BB1C4D900546851 /* Sources */ = {
+		F8037B672BB1C53500546851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8037B5B2BB1C4D900546851 /* ContentView.swift in Sources */,
-				F8037B592BB1C4D900546851 /* TCA_ProjectsApp.swift in Sources */,
+				F83EEDB32BB1C9D900255DAB /* DaysFeature.swift in Sources */,
+				F83EEDB42BB1C9D900255DAB /* DayFeature.swift in Sources */,
+				F84F7B732BB4221E00B03C44 /* NoteFeature.swift in Sources */,
+				F8037B6E2BB1C53500546851 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83EED972BB1C63300255DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83EEDAE2BB1C97000255DAB /* DayFeature.swift in Sources */,
+				F83EEDA02BB1C63300255DAB /* DaysFeature.swift in Sources */,
+				F83EEDBD2BB1CAE400255DAB /* NoteFeature.swift in Sources */,
+				F83EED9E2BB1C63300255DAB /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +378,15 @@
 			};
 			name = Release;
 		};
-		F8037B652BB1C4DA00546851 /* Debug */ = {
+		F8037B782BB1C53600546851 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "TCA Projects/TCA_Projects.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TCA Navigation/TCA_Navigation.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TCA Projects/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TCA Navigation/Preview Content\"";
 				DEVELOPMENT_TEAM = W5V6Y7H37M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -289,25 +406,26 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.digitalbakery.TCA-Projects";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.digitalbakery.TCA-Navigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F8037B662BB1C4DA00546851 /* Release */ = {
+		F8037B792BB1C53600546851 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "TCA Projects/TCA_Projects.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TCA Navigation/TCA_Navigation.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TCA Projects/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TCA Navigation/Preview Content\"";
 				DEVELOPMENT_TEAM = W5V6Y7H37M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -327,10 +445,89 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.digitalbakery.TCA-Projects";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.digitalbakery.TCA-Navigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F83EEDA82BB1C63400255DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TCA Basic/TCA_Basic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA Basic/Preview Content\"";
+				DEVELOPMENT_TEAM = W5V6Y7H37M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.digitalbakery.TCA-Basic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F83EEDA92BB1C63400255DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TCA Basic/TCA_Basic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA Basic/Preview Content\"";
+				DEVELOPMENT_TEAM = W5V6Y7H37M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.digitalbakery.TCA-Basic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,16 +546,72 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8037B642BB1C4DA00546851 /* Build configuration list for PBXNativeTarget "TCA Projects" */ = {
+		F8037B772BB1C53600546851 /* Build configuration list for PBXNativeTarget "TCA Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8037B652BB1C4DA00546851 /* Debug */,
-				F8037B662BB1C4DA00546851 /* Release */,
+				F8037B782BB1C53600546851 /* Debug */,
+				F8037B792BB1C53600546851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83EEDA72BB1C63400255DAB /* Build configuration list for PBXNativeTarget "TCA Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83EEDA82BB1C63400255DAB /* Debug */,
+				F83EEDA92BB1C63400255DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F83EEDAA2BB1C69200255DAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+		F83EEDB52BB1CA0200255DAB /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-tagged";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F83EEDAB2BB1C86100255DAB /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83EEDAA2BB1C69200255DAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F83EEDB62BB1CA0200255DAB /* Tagged */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83EEDB52BB1CA0200255DAB /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = Tagged;
+		};
+		F83EEDB82BB1CA0200255DAB /* TaggedMoney */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83EEDB52BB1CA0200255DAB /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = TaggedMoney;
+		};
+		F83EEDBA2BB1CA0200255DAB /* TaggedTime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83EEDB52BB1CA0200255DAB /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = TaggedTime;
+		};
+		F84F7B702BB4217B00B03C44 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83EEDAA2BB1C69200255DAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8037B4D2BB1C4D900546851 /* Project object */;
 }
