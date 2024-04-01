@@ -21,7 +21,8 @@ struct NoteFeature {
                 state.noteText = text
                 return .none
             }
-        }
+        }        ._printChanges()
+
     }
 }
 

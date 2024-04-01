@@ -37,6 +37,8 @@ struct DayFeature {
         .forEach(\.notes, action: \.notes) {
             NoteFeature()
         }
+        ._printChanges()
+
     }
     
     

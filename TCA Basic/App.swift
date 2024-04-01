@@ -5,7 +5,6 @@ import SwiftUI
 struct BasicApp: App {
     let daysStore = Store(initialState: DaysFeature.State()) {
         DaysFeature()
-        ._printChanges()
     }
     
     

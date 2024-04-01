@@ -35,6 +35,8 @@ struct DaysFeature {
         .forEach(\.days, action: \.days) {
             DayFeature()
         }
+        ._printChanges()
+
     }
     
 }
